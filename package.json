@@ -1,0 +1,26 @@
+{
+  "name": "hapi-ja-demo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichalKarol/hapi-ja-demo-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichalKarol/hapi-ja-demo-app/issues"
+  },
+  "homepage": "https://github.com/MichalKarol/hapi-ja-demo-app#readme",
+  "dependencies": {
+    "hapi": "^17.4.0",
+    "inert": "^5.1.0",
+    "nodemailer": "^4.6.4",
+    "path": "^0.12.7",
+    "vue": "^2.5.16"
+  }
+}
