@@ -10,7 +10,7 @@ $(document).ready(() => {
         notificationArea.appendChild(element);
         setTimeout(() => {
             element.remove();
-        }, 1000);
+        }, 5000);
     };
 
     Vue.use(VueResource)
