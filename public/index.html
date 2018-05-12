@@ -23,6 +23,16 @@
     <!-- Local -->
     <link rel="stylesheet" href="/static/css/site.css">
     <script src="/static/js/index.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113165493-2"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-113165493-2');
+    </script>
 </head>
 
 <body>
@@ -53,7 +63,7 @@
                         </div>
                         <div class="input-group mb-3">
                             <div class="input-group-prepend">
-                                <span class="input-group-text">@Email</span>
+                                <span class="input-group-text">Email</span>
                             </div>
                             <input type="email" class="form-control" aria-label="email" aria-describedby="inputGroup-sizing-default" required v-model="input_model.email">
                         </div>
