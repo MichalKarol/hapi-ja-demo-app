@@ -4,7 +4,7 @@ const Inert = require('inert');
 const Mailer = require('nodemailer');
 
 const server = new Hapi.Server({
-    port: 80,
+    port: process.env.PORT || 8080,
     routes: {
         files: {
             relativeTo: Path.join(__dirname, 'public')
